@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "639030889677",
+    "firebase_url": "https://spmpkl-567fc-default-rtdb.firebaseio.com",
+    "project_id": "spmpkl-567fc",
+    "storage_bucket": "spmpkl-567fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639030889677:android:35ce03c419ff08f9ceed84",
+        "android_client_info": {
+          "package_name": "com.example.spmpkl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639030889677-1auesnp0atiecqi1jm93s844kj89se0n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.spmpkl",
+            "certificate_hash": "5cdada25cedb97e791aaae91c195f8af86733417"
+          }
+        },
+        {
+          "client_id": "639030889677-388btohtm93c8tet8etupm74ftofk8iv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcIIltWx7CcXaCPJasD9VcijNlwezRvoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639030889677-388btohtm93c8tet8etupm74ftofk8iv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

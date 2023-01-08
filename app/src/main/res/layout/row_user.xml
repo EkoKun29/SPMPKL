@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Tanggal"/>
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Waktu"/>
+    <TextView
+        android:id="@+id/ket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Keterangan"/>
+    <TextView
+        android:id="@+id/zin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Izin"/>
+    <TextView
+        android:id="@+id/lok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Lokasi"/>
+
+
+</LinearLayout>

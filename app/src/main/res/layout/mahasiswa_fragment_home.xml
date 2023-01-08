@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui_mahasiswa.home.HomeFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+       android:layout_margin="100dp"
+        android:background="@drawable/ic_person"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:background="@color/white"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/ic_profile"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_personblack" />
+
+
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/ic_profile"
+                android:layout_marginStart="50dp"
+                android:fontFamily="sans-serif-condensed"
+                android:inputType="textMultiLine"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:text="Nama Lengkap"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/text_name"
+                android:background="@android:color/background_dark" />
+        </RelativeLayout>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        app:boxBackgroundColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:background="@color/white"
+            android:padding="15dp">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/ic_npm"
+            android:background="@drawable/ic_npm"/>
+
+            <TextView
+                android:id="@+id/text_npm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/ic_npm"
+                android:layout_marginStart="50dp"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="Username (NIM/NIDN)"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.56" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/text_npm"
+                android:background="@android:color/background_dark" />
+        </RelativeLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:boxBackgroundColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:background="@color/white"
+            android:padding="15dp">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/ic_dosbing"
+                android:background="@drawable/ic_dosbing"/>
+
+            <TextView
+                android:id="@+id/text_dosbing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/ic_dosbing"
+                android:layout_marginStart="50dp"
+                android:fontFamily="sans-serif-condensed"
+                android:hint="Dosbing"
+                android:inputType="textMultiLine"
+
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.62" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/text_dosbing"
+                android:background="@android:color/background_dark" />
+        </RelativeLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:boxBackgroundColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.8">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:background="@color/white"
+                    android:padding="15dp">
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:id="@+id/ic_lokasi"
+                        android:background="@drawable/ic_lokasi"/>
+
+                    <TextView
+                        android:id="@+id/text_lokasi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/ic_lokasi"
+                        android:layout_marginStart="50dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:hint="Lokasi"
+                        android:inputType="textMultiLine"
+
+                        android:paddingStart="10dp"
+                        android:paddingEnd="0dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="23sp"
+                        android:textStyle="bold|italic"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.68" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@+id/text_lokasi"
+                        android:background="@android:color/background_dark" />
+                </RelativeLayout>
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

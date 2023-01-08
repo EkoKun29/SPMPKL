@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".RegisterpelapActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".RegisterpelapActivity">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart= "20dp"
+            android:layout_marginEnd="20dp"
+            app:boxBackgroundColor="@color/white">
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Lengkap"
+                android:inputType="textMultiLine"
+                android:layout_marginStart= "1dp"
+                android:layout_marginEnd="1dp"
+                android:paddingEnd="0dp"
+                android:paddingStart="10dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_marginStart= "20dp"
+            android:layout_marginEnd="20dp"
+            app:boxBackgroundColor="@color/white">
+            <EditText
+                android:id="@+id/ppkl1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Mahasiswa 1"
+                android:inputType="textMultiLine"
+                android:layout_marginStart= "1dp"
+                android:layout_marginEnd="1dp"
+                android:paddingEnd="0dp"
+                android:paddingStart="10dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_marginStart= "20dp"
+            android:layout_marginEnd="20dp"
+            app:boxBackgroundColor="@color/white">
+            <EditText
+                android:id="@+id/ppkl2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Mahasiswa 2"
+                android:inputType="textMultiLine"
+                android:layout_marginStart= "1dp"
+                android:layout_marginEnd="1dp"
+                android:paddingEnd="0dp"
+                android:paddingStart="10dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_marginStart= "20dp"
+            android:layout_marginEnd="20dp"
+            app:boxBackgroundColor="@color/white">
+            <EditText
+                android:id="@+id/ppkl3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Mahasiswa 3"
+                android:inputType="textMultiLine"
+                android:layout_marginStart= "1dp"
+                android:layout_marginEnd="1dp"
+                android:paddingEnd="0dp"
+                android:paddingStart="10dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+              <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_marginStart= "20dp"
+            android:layout_marginEnd="20dp"
+            app:boxBackgroundColor="@color/white">
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username (NIM/NIDN/NIP)"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:layout_marginStart= "1dp"
+                android:layout_marginEnd="1dp"
+                android:paddingEnd="0dp"
+                android:paddingStart="10dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_marginStart= "20dp"
+            android:layout_marginEnd="20dp"
+            app:boxBackgroundColor="@color/white"
+            app:passwordToggleEnabled="true">
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:layout_marginStart= "1dp"
+                android:layout_marginEnd="1dp"
+                android:paddingEnd="0dp"
+                android:paddingStart="10dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_marginStart= "20dp"
+            android:layout_marginEnd="20dp"
+            app:boxBackgroundColor="@color/white"
+            app:passwordToggleEnabled="true">
+            <EditText
+                android:id="@+id/password_conf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password Confirmation"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:layout_marginStart= "1dp"
+                android:layout_marginEnd="1dp"
+                android:paddingEnd="0dp"
+                android:paddingStart="10dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Registry"
+            android:layout_marginTop="40dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account?"/>
+
+            <TextView
+                android:layout_marginStart="5dp"
+                android:id="@+id/btn_login"
+                android:text="Login Now"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

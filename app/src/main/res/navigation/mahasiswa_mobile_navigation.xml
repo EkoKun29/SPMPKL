@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.spmpkl.ui_mahasiswa.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/mahasiswa_fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_presensi"
+        android:name="com.example.spmpkl.ui_mahasiswa.presensi.PresensiFragment"
+        android:label="Presensi"
+        tools:layout="@layout/mahasiswa_fragment_presensi" />
+
+    <fragment
+        android:id="@+id/nav_rekap"
+        android:name="com.example.spmpkl.ui_mahasiswa.rekap.RekapFragment"
+        android:label="Rekap Presensi"
+        tools:layout="@layout/mahasiswa_fragment_rekap" />
+
+    <fragment
+        android:id="@+id/nav_nilai"
+        android:name="com.example.spmpkl.ui_mahasiswa.nilai.NilaiSFragment"
+        android:label="Rekap Nilai"
+        tools:layout="@layout/mahasiswa_fragment_nilais" />
+
+    <fragment
+        android:id="@+id/nav_bimbingan"
+        android:name="com.example.spmpkl.ui_mahasiswa.bimbingan.BimbinganFragment"
+        android:label="Pembimbingan"
+        tools:layout="@layout/mahasiswa_fragment_bimbingan" />
+
+    <fragment
+        android:id="@+id/nav_masuk"
+        android:name="com.example.spmpkl.ui_mahasiswa.upload.UploadFragment"
+        android:label="Masuk"
+        tools:layout="@layout/mahasiswa_fragment_upload" />
+
+    <fragment
+        android:id="@+id/nav_izin"
+        android:name="com.example.spmpkl.ui_mahasiswa.hasil.HasilFragment"
+        android:label="Izin"
+        tools:layout="@layout/mahasiswa_fragment_hasil" />
+</navigation>

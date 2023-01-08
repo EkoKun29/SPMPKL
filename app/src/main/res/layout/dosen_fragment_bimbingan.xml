@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_gravity="center"
+    tools:context=".ui_dosen.bimbingan_dosen.BimbinganFragment">
+
+    <FrameLayout
+        android:id="@+id/contentFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btn_bim"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="180dp"
+            android:background="@drawable/round_btn"
+            android:backgroundTint="#00c3ff"
+            android:layout_gravity="center"
+            android:text="BIMBINGAN"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_hasil"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_margin="70dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_btn"
+            android:text="Kirim"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </FrameLayout>
+</LinearLayout>

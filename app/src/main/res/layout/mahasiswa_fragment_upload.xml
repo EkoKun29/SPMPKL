@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/masukFragment"
+    tools:context=".ui_mahasiswa.upload.UploadFragment">
+
+
+    <FrameLayout
+        android:id="@+id/contentFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/select"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:backgroundTint="#E8827F"
+            android:layout_marginBottom="170dp"
+            android:text="Select Files"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/file"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="No files is selected"
+                android:inputType="textMultiLine"
+                android:layout_gravity="center"
+                android:layout_marginBottom="100dp"
+                android:layout_marginStart= "1dp"
+                android:layout_marginEnd="1dp"
+                android:paddingEnd="0dp"
+                android:paddingStart="10dp"/>
+
+        <Button
+            android:id="@+id/simpan"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:backgroundTint="#E8827F"
+            android:text="Send Files"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:inputType="textMultiLine"
+            android:text="*Ket : Ganti nama file dengan Nama Lengkap"
+            android:gravity="center"/>
+    </FrameLayout>
+
+</RelativeLayout>

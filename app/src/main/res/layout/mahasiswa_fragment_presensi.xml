@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+    tools:context=".ui_mahasiswa.presensi.PresensiFragment">
+
+    <FrameLayout
+        android:id="@+id/contentFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btn_masuk"
+            android:layout_width="match_parent"
+            android:layout_height="147dp"
+            android:layout_marginTop="50dp"
+            android:layout_margin="70dp"
+            android:backgroundTint="#9CEFAE"
+            android:text="PRESENSI"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_rekap"
+            android:layout_width="match_parent"
+            android:layout_height="147dp"
+            android:layout_margin="70dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#0090ff"
+            android:text="REKAP"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+
+</LinearLayout>
+

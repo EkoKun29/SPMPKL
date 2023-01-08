@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.spmpkl">
+    package="com.example.currentplacedetailsonmap">
+
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/Theme.SPMPKL">
+
+
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+
+        <activity
+            android:name=".PelapActivity"
+            android:exported="false"
+            android:label="@string/title_activity_pelap"
+            android:theme="@style/Theme.SPMPKL.NoActionBar" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false"
+            android:label="@string/title_activity_admin" />
+        <activity
+            android:name=".UploadPdf"
+            android:exported="false"
+            android:label="UploadPdf" />
+        <activity
+            android:name=".MahasiswaActivity"
+            android:exported="false"
+            android:label="@string/title_activity_mahasiswa"
+            android:theme="@style/Theme.SPMPKL.NoActionBar" />
+        <activity
+            android:name=".DosenActivity"
+            android:exported="false"
+            android:label="@string/title_activity_dosen"
+            android:theme="@style/Theme.SPMPKL.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true"
+            android:label="Register" />
+        <activity
+            android:name=".RegisterpelapActivity"
+            android:exported="true"
+            android:label="Registerpelap" />
+        <activity
+            android:name=".RegistergrupActivity"
+            android:exported="true"
+            android:label="Registergrup" />
+        <activity
+            android:name=".UploadFotoActivity"
+            android:exported="true"
+            android:label="Upload" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_maps" />
+    </application>
+
+</manifest>

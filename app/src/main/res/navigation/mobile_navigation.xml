@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.spmpkl.ui.home_admin.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/admin_fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.spmpkl.ui.data_dosen.DataDosenFragment"
+        android:label="Data Dosen"
+        tools:layout="@layout/admin_fragment_datadosen" />
+
+    <fragment
+        android:id="@+id/navigation_nilai"
+        android:name="com.example.spmpkl.ui.data_nilai.DatanilaiFragment"
+        android:label="@string/title_datanilai"
+        tools:layout="@layout/admin_fragment_datanilai" />
+
+    <fragment
+        android:id="@+id/navigation_rekap"
+        android:name="com.example.spmpkl.ui.rekap_presensi.RekapFragment"
+        android:label="Rekap Presensi"
+        tools:layout="@layout/admin_fragment_rekapp" />
+</navigation>

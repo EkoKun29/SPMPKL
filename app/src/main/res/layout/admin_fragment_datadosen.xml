@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.data_dosen.DataDosenFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background= "@android:color/white"
+            android:layout_margin="3dp">
+
+            <TableRow
+                android:background="#96c896">
+
+                <TextView
+                    android:id="@+id/unsur"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="NAMA DOSEN"
+                    android:textColor="@color/white"
+                    android:padding="10sp"
+                    android:textSize="14sp"
+                    android:layout_weight="20"
+                    android:gravity="center_horizontal" />
+
+
+                <TextView
+                    android:id="@+id/ket"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="NIDN"
+                    android:textColor="@color/white"
+                    android:padding="10sp"
+                    android:textSize="14sp"
+                    android:layout_weight="7"
+                    android:gravity="center_horizontal" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/u1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Bambang Agus Herlambang, S.Kom., M.Kom"
+                    android:textStyle="bold"
+                    android:inputType="textMultiLine"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="20"
+                    android:gravity="center_horizontal" />
+
+                <EditText
+                    android:id="@+id/k1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="0601088201"
+                    android:textStyle="bold"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="7"
+                    android:gravity="center_horizontal" />
+            </TableRow>
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/u2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Agus Handayanto, Ir., M.Kom"
+                    android:textStyle="bold"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="20"
+                    android:gravity="center_horizontal" />
+
+                <EditText
+                    android:id="@+id/k2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="0019116202"
+                    android:textStyle="bold"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="7"
+                    android:gravity="center_horizontal" />
+            </TableRow>
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/u3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Febrian Murti Dewanto, S.E., M.Kom"
+                    android:textStyle="bold"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="20"
+                    android:gravity="center_horizontal" />
+
+                <EditText
+                    android:id="@+id/k3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="0606027801"
+                    android:textStyle="bold"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="7"
+                    android:gravity="center_horizontal" />
+            </TableRow>
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/u4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mega Novita, S.Si., M.Nat.Sc., Ph.D"
+                    android:textStyle="bold"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="20"
+                    android:gravity="center_horizontal" />
+
+                <EditText
+                    android:id="@+id/k4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="0615118801"
+                    android:textStyle="bold"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="7"
+                    android:gravity="center_horizontal" />
+            </TableRow>
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/u5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Khoiriya Latifah, S.Kom., M.Kom"
+                    android:textStyle="bold"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="20"
+                    android:gravity="center_horizontal" />
+
+                <EditText
+                    android:id="@+id/k5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="0617077801"
+                    android:textStyle="bold"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="7"
+                    android:gravity="center_horizontal" />
+            </TableRow>
+            <TableRow>
+                <EditText
+                    android:id="@+id/u6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Aris Tri Jaka Harjanta, S.Kom., M.Kom"
+                    android:textStyle="bold"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="20"
+                    android:gravity="center_horizontal" />
+
+                <EditText
+                    android:id="@+id/k6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="0619048202"
+                    android:textStyle="bold"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="7"
+                    android:gravity="center_horizontal" />
+            </TableRow>
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/u7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nugroho Dwi Saputro, S.Kom., M.Kom"
+                    android:textStyle="bold"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="20"
+                    android:gravity="center_horizontal" />
+
+                <EditText
+                    android:id="@+id/k7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="0623058802"
+                    android:textStyle="bold"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="7"
+                    android:gravity="center_horizontal" />
+            </TableRow>
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/u8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Setyoningsih Wibowo, S.T., M.Kom"
+                    android:textStyle="bold"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="20"
+                    android:gravity="center_horizontal" />
+
+                <EditText
+                    android:id="@+id/k8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="0623127501"
+                    android:textStyle="bold"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="7"
+                    android:gravity="center_horizontal" />
+            </TableRow>
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/u9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Rahmat Robi Waliyansyah, S.Kom., M.Kom"
+                    android:textStyle="bold"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="20"
+                    android:gravity="center_horizontal" />
+
+                <EditText
+                    android:id="@+id/k9"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="0625108803"
+                    android:textStyle="bold"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="7"
+                    android:gravity="center_horizontal" />
+            </TableRow>
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/u10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Noora Qotrun Nada, S.T., M.Eng"
+                    android:textStyle="bold"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="20"
+                    android:gravity="center_horizontal" />
+
+                <EditText
+                    android:id="@+id/k10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="0626028201"
+                    android:textStyle="bold"
+                    android:padding="10sp"
+                    android:textSize="12sp"
+                    android:layout_weight="7"
+                    android:gravity="center_horizontal" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>
